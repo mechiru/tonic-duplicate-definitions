@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package connect;
+option go_package = ".;connect";
+
+service ConnectApi {
+  rpc Connect(ConnectRequest) returns (ConnectResponse);
+}
+
+message ConnectRequest {}
+
+message ConnectResponse {}

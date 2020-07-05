@@ -1,0 +1,12 @@
+[package]
+name = "tonic-duplicate-definitions"
+version = "0.1.0"
+authors = ["mechiru <46036584+mechiru@users.noreply.github.com>"]
+edition = "2018"
+
+[build-dependencies]
+tonic-build = "0.2.0"
+
+[dependencies]
+tonic = { version = "0.2.1", features = ["tls"] }
+prost = { version = "0.6.1" }
